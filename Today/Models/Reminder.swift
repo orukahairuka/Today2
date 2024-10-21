@@ -22,13 +22,13 @@ extension Reminder {
             notes: "Don't forget about taxi receipts"),
         Reminder(
             title: "Code review", dueDate: Date().addingTimeInterval(14000.0),
-            notes: "Check tech specs in shared folder", isComplete: true),
+            notes: "Check tech specs in shared folder", isCompleted: true),
         Reminder(
             title: "Pick up new contacts", dueDate: Date().addingTimeInterval(24000.0),
             notes: "Optometrist closes at 6:00PM"),
         Reminder(
             title: "Add notes to retrospective", dueDate: Date().addingTimeInterval(3200.0),
-            notes: "Collaborate with project manager", isComplete: true),
+            notes: "Collaborate with project manager", isCompleted: true),
         Reminder(
             title: "Interview new project manager candidate",
             dueDate: Date().addingTimeInterval(60000.0), notes: "Review portfolio"),
@@ -46,3 +46,4 @@ extension Reminder {
             notes: "v0.9 out on Friday")
     ]
 }
+#endif
